@@ -1,4 +1,4 @@
-package com.example.example;
+package com.example.HeadlineHaven;
 
 import org.junit.Test;
 

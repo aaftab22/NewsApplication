@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.example">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,9 +10,18 @@
         android:roundIcon="@drawable/tpf_news"
         android:supportsRtl="true"
         android:theme="@style/Theme.Example">
-        <activity android:name=".FullArticalWebView"></activity>
-        <activity android:name=".NewsDetailActivity" />
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".AboutUsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FullArticleWebView"
+            android:exported="false" />
+        <activity
+            android:name=".NewsDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,11 +1,11 @@
-package com.example.example;
+package com.example.HeadlineHaven.Models;
 
-public class categoryModel {
+public class Category {
 
     private String category;
     private String categoryImageUrl;
 
-    public categoryModel(String category, String categoryImageUrl) {
+    public Category(String category, String categoryImageUrl) {
         this.category = category;
         this.categoryImageUrl = categoryImageUrl;
     }

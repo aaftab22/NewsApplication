@@ -10,18 +10,10 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar_ID"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-            <TextView
-                android:id="@+id/actionBar_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/toolBarHeading"
-                android:textStyle="bold"
-                android:textColor="@color/white"
-                android:textSize="20sp" />
-
-    </androidx.appcompat.widget.Toolbar>
+        android:layout_height="wrap_content"
+        app:menu="@menu/drawer_menu"
+        app:title="@string/app_name"
+        app:titleTextColor="@color/white"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/RV_category_ID"

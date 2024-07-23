@@ -1,6 +1,4 @@
-package com.example.example;
-
-import java.util.ArrayList;
+package com.example.HeadlineHaven.Models;
 
 public class Articles {
 

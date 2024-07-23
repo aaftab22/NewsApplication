@@ -1,8 +1,14 @@
 <resources>
     <string name="app_name">TPF NEWS</string>
-    <string name="toolBarHeading">TPF News</string>
     <string name="read_full_artical">Read Full Artical</string>
     <string name="example_text">This is example text</string>
     <string name="description">This is banner image</string>
 
+    <string name="about_us_description">We are a passionate team dedicated to providing the best experience for our users. Our app is designed to help you manage your tasks efficiently and effectively.</string>
+    <string name="our_team_title">Our Team</string>
+    <string name="twitter_icon_desc">This is linkedin icon</string>
+    <string name="facebook_icon_desc">This is facebook icon</string>
+    <string name="linkedin_icon_desc">"This is linkedin "</string>
+    <string name="complaint_here_email">If you have any concerns or complaints, please email us at:</string>
+    <string name="businessEmail">darksuntechnologies@gmail.com</string>
 </resources>

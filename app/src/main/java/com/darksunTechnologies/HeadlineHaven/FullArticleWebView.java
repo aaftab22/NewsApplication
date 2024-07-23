@@ -1,4 +1,4 @@
-package com.example.example;
+package com.darksunTechnologies.HeadlineHaven;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,10 +6,8 @@ import android.os.Bundle;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-public class FullArticalWebView extends AppCompatActivity {
-
+public class FullArticleWebView extends AppCompatActivity {
     WebView webView;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,11 +15,10 @@ public class FullArticalWebView extends AppCompatActivity {
         String url;
         webView = findViewById(R.id.webview_ID);
 
-        url = getIntent().getStringExtra("urlforAtrical");
+        url = getIntent().getStringExtra("urlForArticle");
 
         webView.setWebViewClient(new WebViewClient());
+        assert url != null;
         webView.loadUrl(url);
-
-
     }
 }

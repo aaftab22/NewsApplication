@@ -1,14 +1,14 @@
-package com.example.example;
+package com.example.HeadlineHaven.Models;
 
 import java.util.ArrayList;
 
-public class newsModelClass {
+public class News {
 
     private int totalResults;
     private String status;
     private ArrayList<Articles> articles;
 
-    public newsModelClass(int totalResults, String status, ArrayList<Articles> articles) {
+    public News(int totalResults, String status, ArrayList<Articles> articles) {
         this.totalResults = totalResults;
         this.status = status;
         this.articles = articles;
@@ -30,7 +30,7 @@ public class newsModelClass {
         this.status = status;
     }
 
-    public ArrayList<Articles> getArticles() {
+    public ArrayList<com.example.HeadlineHaven.Models.Articles> getArticles() {
         return articles;
     }
 
